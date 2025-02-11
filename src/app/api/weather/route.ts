@@ -8,7 +8,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "City parameter is required" }, { status: 400 })
   }
 
-  const apiKey = ""//process.env.API_KEY
+  const apiKey = process.env.API_KEY
   const apiUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(city)}&days=3&aqi=yes`
 
   try {
