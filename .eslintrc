@@ -1,0 +1,6 @@
+{
+    "rules": {
+      "eqeqeq": ["error", "always", { "null": "ignore" }],
+      // Add or adjust the specific rule causing the warning
+    }
+  }

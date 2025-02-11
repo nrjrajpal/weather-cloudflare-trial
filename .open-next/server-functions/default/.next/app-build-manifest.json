@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/chunks/app/_not-found/page-96372817d368e72e.js"
+    ],
+    "/api/sports/route": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/chunks/app/api/sports/route-ce26a0474dde5c57.js"
+    ],
+    "/api/astronomy/route": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/chunks/app/api/astronomy/route-f679372b032d5272.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/css/3fd3fcd4a16155e1.css",
+      "static/chunks/app/layout-5d65e251030f2043.js"
+    ],
+    "/api/weather/route": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/chunks/app/api/weather/route-f54f799079d4f3b3.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-38af6a0a9ec1ce30.js",
+      "static/chunks/4bd1b696-34223718152f0cdc.js",
+      "static/chunks/517-25c75b8c75b73c18.js",
+      "static/chunks/main-app-950e36a2b5800e14.js",
+      "static/chunks/259-76b8d6cc72ea14e3.js",
+      "static/chunks/app/page-487e369a645107da.js"
+    ]
+  }
+}

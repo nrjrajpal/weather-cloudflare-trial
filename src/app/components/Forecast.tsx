@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -8,7 +10,14 @@ interface ForecastProps {
   data: WeatherData["forecast"]["forecastday"]
 }
 
-function DailyForecast({ day }) {
+type ForecastDay = WeatherData["forecast"]["forecastday"][number]
+type ForecastHour = ForecastDay["hour"][number]
+
+interface DailyForecastProps {
+  day: ForecastDay
+}
+
+function DailyForecast({ day }: DailyForecastProps) {
   return (
     <div className="text-center p-4 border rounded-lg">
       <p className="font-bold text-lg">
@@ -34,7 +43,11 @@ function DailyForecast({ day }) {
   )
 }
 
-function HourlyForecast({ hours }) {
+interface HourlyForecastProps {
+  hours: ForecastHour[]
+}
+
+function HourlyForecast({ hours }: HourlyForecastProps) {
   return (
     <div className="overflow-x-auto">
       <table className="w-full">

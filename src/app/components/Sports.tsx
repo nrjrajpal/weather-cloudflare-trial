@@ -1,9 +1,15 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import type { SportsData } from "../types/weather"
+import type { SportsData, SportEvent } from "../types/weather"
 
 interface SportsProps {
   data: SportsData
+}
+
+interface SportEventsProps {
+  events: SportEvent[]
 }
 
 export function Sports({ data }: SportsProps) {
@@ -34,7 +40,7 @@ export function Sports({ data }: SportsProps) {
   )
 }
 
-function SportEvents({ events }) {
+function SportEvents({ events }: SportEventsProps) {
   return (
     <div className="space-y-2">
       {events.map((event, index) => (

@@ -28,7 +28,7 @@ export function AirQuality({ data }: AirQualityProps) {
   )
 }
 
-function getAirQualityDescription(index) {
+function getAirQualityDescription(index: number) {
   const descriptions = [
     "Good",
     "Moderate",
